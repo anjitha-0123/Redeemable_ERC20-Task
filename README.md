@@ -29,6 +29,7 @@ GreenToken is an upgradeable ERC20 token built with Solidity, OpenZeppelin, and 
 
 
 ## 🚀 Getting Started
+
 1. Clone the Repository
 ```
 git clone git@github.com:anjitha-0123/Redeemable_ERC20-Task.git
@@ -46,17 +47,25 @@ npm install
 npx hardhat compile
 ```
 5. Deploy to Localhost
+   
 Start a local node:
+
 ```
 npx hardhat node
 ```
+
 Deploy:
+
 ```
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
+
 6. Deploy to Sepolia Testnet
-Update your hardhat.config.js with your Sepolia RPC URL and private key. Then:
+   
+Update your hardhat.config.js with your Sepolia RPC URL and private key.
+
+Then:
 ```
 npx hardhat run scripts/deploy.js --network sepolia
 ```
