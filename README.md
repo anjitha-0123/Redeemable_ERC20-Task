@@ -4,18 +4,29 @@ GreenToken is an upgradeable ERC20 token built with Solidity, OpenZeppelin, and 
 
 ## ✨ Features
 
--🔄 Upgradeable: Uses OpenZeppelin’s UUPS proxy pattern for future upgrades.
--🪙 Mint: Owner can mint new tokens.
--🔥 Burn: Any token holder can burn their tokens voluntarily.
--💸 Transfer: Standard ERC20 transfer functionality.
--🎁 Redeem: Token holders can redeem tokens for a placeholder reward 
+🔄 Upgradeable: Uses OpenZeppelin’s UUPS proxy pattern for future upgrades.
+
+🪙 Mint: Owner can mint new tokens.
+
+🔥 Burn: Any token holder can burn their tokens voluntarily.
+
+💸 Transfer: Standard ERC20 transfer functionality.
+
+🎁 Redeem: Token holders can redeem tokens for a placeholder reward 
+
 
 ## 🛠️ Tech Stack
+
 ⚡ Solidity: Smart contract.
+
 🛡️ OpenZeppelin: Upgradeable ERC20, UUPS proxy, and access control modules.
+
 🏗️ Hardhat: Development deployment framework.
+
 🌐 Sepolia Testnet: For live contract testing.
+
 ⚛️ React: Frontend UI for interacting with the contract.
+
 
 ## 🚀 Getting Started
 1. Clone the Repository
