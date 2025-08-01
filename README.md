@@ -83,7 +83,9 @@ npm run dev
 Note:It allows to change contract’s logic after deployment without losing user balances or data. This project uses OpenZeppelin’s UUPS proxy pattern, so the contract can be upgraded by the owner if needed. Upgrades are done safely using scripts, and only authorized accounts can perform them. This helps keep token secure and future-proof.
 
 ## 📚 Reference
+
 https://docs.openzeppelin.com/upgrades-plugins/1.x/
+
 https://docs.openzeppelin.com/contracts/5.x/wizard
 
 
